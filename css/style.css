@@ -34,16 +34,14 @@ body {
 	user-select: none;
 	background-color: #000;
 	overflow: hidden;
-	height: 1520px;
-	width: 720px;
 }
 
 .load {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	height: 1520px;
-	width: 720px;
+	height: 100%
+	width: 100%
 	transform: translate(-50%, -50%);
 	background-color: #000;
 	z-index: 120;
@@ -54,7 +52,7 @@ body {
 }
 
 .text {
-	width: 720px;
+	width: 100%
 	text-align: center;
 	margin: auto;
 	color: 48px;
@@ -148,13 +146,13 @@ body {
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	height: 1520px;
+	height: 100%
 	overflow: hidden;
 	bos-sizing: content-box;
 }
 
 ._container {
-	width: 720px;
+	max-width: 720px;
 	margin: 0px auto;
 }
 
@@ -164,7 +162,7 @@ body {
 	top: 0;
 	left: 0;
 	height: 800px;
-	width: 720px;
+	width: 100%
 	align-items: center;
 	justify-content: center;
 	transform: translateY(-820px);
