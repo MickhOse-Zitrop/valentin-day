@@ -57,6 +57,7 @@ body {
 	margin: auto;
 	color: 48px;
 	color: #fff;
+        transform: translate(-50%);
 }
 
 .rhombus {
