@@ -1,7 +1,7 @@
 window.onload = async function () {
-	setTimeout(function () { document.querySelector('.load').classList.add('hide') }, 5000)
-	setTimeout(function () { document.getElementById('hint').classList.add('show') }, 5500)
-	setTimeout(main, 8500)
+	setTimeout(function () { document.querySelector('.load').classList.add('hide') }, 1000)
+	setTimeout(function () { document.getElementById('hint').classList.add('show') }, 1500)
+	setTimeout(main, 3500)
 }
 
 function main() {
