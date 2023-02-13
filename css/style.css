@@ -38,11 +38,11 @@ body {
 
 .load {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 0;
+	left: 0;
 	height: 100%
 	width: 100%
-	transform: translate(-50%, -50%);
+	// pass
 	background-color: #000;
 	z-index: 120;
 }
