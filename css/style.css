@@ -41,7 +41,7 @@ body {
 	top: 0;
 	left: 0;
 	height: 100%
-	width: 100%
+	width: 100%;
 	// pass
 	background-color: #000;
 	z-index: 120;
